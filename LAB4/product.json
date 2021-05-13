@@ -1,0 +1,58 @@
+[
+    {
+        "name": "HTML Tag",
+        "image": "./image/html1.jpg",
+        "category": "html",
+        "cost": "12,000won",
+        "description": "HTML 태그 설명집"
+    },
+    {
+        "name": "HTML5 Canvas",
+        "image": "./image/html2.jpg",
+        "category": "html",
+        "cost": "10,000won",
+        "description": "웹의 한계를 Canvas로 뛰어넘는다"
+    },
+    {
+        "name": "HTML5 Web Accessibility",
+        "image": "./image/html3.jpg",
+        "category": "html",
+        "cost": "12,000won",
+        "description": "HTML을 이용한 웹 접근성 가이드"
+    },
+    {
+        "name": "HTML5가 보이는 그림책",
+        "image": "./image/html4.jpg",
+        "category": "html",
+        "cost": "8,000won",
+        "description": "그림으로 학습하는 HTML"
+    },
+    {
+        "name": "CSS Definitive guide",
+        "image": "./image/css1.jpg",
+        "category": "css",
+        "cost": "14,500won",
+        "description": "초보자를 위한 CSS 완벽 가이드"
+    },
+    {
+        "name": "CSS3 - The Missing Manual",
+        "image": "./image/css2.jpg",
+        "category": "css",
+        "cost": "16,500won",
+        "description": "세상에 없던 가장 꼼꼼한 CSS 매뉴얼"
+    },
+    {
+        "name": "CSS 시크릿",
+        "image": "./image/css3.jpg",
+        "category": "css",
+        "cost": "11,000won",
+        "description": "웹 디자인 문제를 해결하는 가장 나은 방법"
+    },
+    {
+        "name": "High Performance Javascript",
+        "image": "./image/js1.jpg",
+        "category": "js",
+        "cost": "13,000won",
+        "description": "자바스크립트 성능 향상을 위한 고찰"
+    }
+]
