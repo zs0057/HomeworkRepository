@@ -90,7 +90,7 @@
     {
         "id": 12,
         "name": "LG Strip",
-        "image": "./image/lg_1.JPG",
+        "image": "./image/lg_1.jpg",
         "category": "LG",
         "cost": "82,000won",
         "description": "잔망루피 스트라이프 유니폼"
@@ -98,7 +98,7 @@
     {
         "id": 13,
         "name": "LG Solid",
-        "image": "./image/lg_2.JPG",
+        "image": "./image/lg_2.jpg",
         "category": "LG",
         "cost": "82,000won",
         "description": "잔망루피 솔리드 유니폼"
@@ -106,7 +106,7 @@
     {
         "id": 14,
         "name": "LG 개나리",
-        "image": "./image/lg_3.JPG",
+        "image": "./image/lg_3.jpg",
         "category": "LG",
         "cost": "75,000won",
         "description": "개나리 에디션 유니폼"
@@ -114,7 +114,7 @@
     {
         "id": 15,
         "name": "Kiwoom Home",
-        "image": "./image/kiwoom_1.JPG",
+        "image": "./image/kiwoom_1.jpg",
         "category": "키움",
         "cost": "55,000won",
         "description": "키움 홈 일반형 유니폼"
@@ -122,7 +122,7 @@
     {
         "id": 16,
         "name": "Kiwoom Home (Advanced)",
-        "image": "./image/kiwoom_2.JPG",
+        "image": "./image/kiwoom_2.jpg",
         "category": "키움",
         "cost": "89,000won",
         "description": "키움 홈 고급형 유니폼"
@@ -130,7 +130,7 @@
     {
         "id": 17,
         "name": "Kiwoom Away",
-        "image": "./image/kiwoom_3.JPG",
+        "image": "./image/kiwoom_3.jpg",
         "category": "키움",
         "cost": "55,000won",
         "description": "키움 원정 일반형 유니폼"
@@ -138,7 +138,7 @@
     {
         "id": 18,
         "name": "Kiwoom Away (Advanced)",
-        "image": "./image/kiwoom_4.JPG",
+        "image": "./image/kiwoom_4.jpg",
         "category": "키움",
         "cost": "89,000won",
         "description": "키움 원정 고급형 유니폼"
@@ -146,7 +146,7 @@
     {
         "id": 19,
         "name": "Kiwoom King",
-        "image": "./image/kiwoom_5.JPG",
+        "image": "./image/kiwoom_5.jpg",
         "category": "키움",
         "cost": "55,000won",
         "description": "영웅 유니폼"
@@ -154,7 +154,7 @@
     {
         "id": 20,
         "name": "Kiwoom Black",
-        "image": "./image/kiwoom_6.JPG",
+        "image": "./image/kiwoom_6.jpg",
         "category": "키움",
         "cost": "55,000won",
         "description": "패션 유니폼 (블랙)"
@@ -162,7 +162,7 @@
     {
         "id": 21,
         "name": "Kiwoom Pink",
-        "image": "./image/kiwoom_7.JPG",
+        "image": "./image/kiwoom_7.jpg",
         "category": "키움",
         "cost": "55,000won",
         "description": "패션 유니폼 (핑크)"
@@ -170,7 +170,7 @@
     {
         "id": 22,
         "name": "Kiwoom Jumper",
-        "image": "./image/kiwoom_8.JPG",
+        "image": "./image/kiwoom_8.jpg",
         "category": "키움",
         "cost": "105,000won",
         "description": "키움 히어로즈 유광점퍼"
