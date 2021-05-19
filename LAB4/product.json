@@ -1,58 +1,178 @@
 [
     {
-        "name": "HTML Tag",
-        "image": "./image/html1.jpg",
-        "category": "html",
+        "id": 1,
+        "name": "Lotte Home",
+        "image": "./image/lotte_1.jpg",
+        "category": "롯데",
+        "cost": "60,500won",
+        "description": "20 홈 프로페셔널 유니폼"
+    },
+    {
+        "id": 2,
+        "name": "Lotte Away",
+        "image": "./image/lotte_2.jpg",
+        "category": "롯데",
+        "cost": "60,500won",
+        "description": "20 원정 프로페셔널 유니폼"
+    },
+    {
+        "id": 3,
+        "name": "Lotte Champion",
+        "image": "./image/lotte_3.jpg",
+        "category": "롯데",
+        "cost": "121,000won",
+        "description": "챔피언 프로페셔널 유니폼"
+    },
+    {
+        "id": 4,
+        "name": "Lotte Military",
+        "image": "./image/lotte_4.jpg",
+        "category": "롯데",
+        "cost": "131,000won",
+        "description": "선수형 밀리터리 유니폼"
+    },
+    {
+        "id": 5,
+        "name": "Doosan Home",
+        "image": "./image/doosan_1.jpg",
+        "category": "두산",
+        "cost": "100,000won",
+        "description": "어센틱 홈 유니폼"
+    },
+    {
+        "id": 6,
+        "name": "Doosan Away",
+        "image": "./image/doosan_2.jpg",
+        "category": "두산",
+        "cost": "100,000won",
+        "description": "어센틱 원정 유니폼"
+    },
+    {
+        "id": 7,
+        "name": "Doosan Old Home",
+        "image": "./image/doosan_3.jpg",
+        "category": "두산",
+        "cost": "100,000won",
+        "description": "어센틱 올드 홈 유니폼"
+    },
+    {
+        "id": 8,
+        "name": "Doosan Old Away",
+        "image": "./image/doosan_4.jpg",
+        "category": "두산",
+        "cost": "100,000won",
+        "description": "어센틱 올드 원정 유니폼"
+    },
+    {
+        "id": 9,
+        "name": "SSG Incheon",
+        "image": "./image/ssg_1.jpg",
+        "category": "SSG",
         "cost": "12,000won",
-        "description": "HTML 태그 설명집"
+        "description": "친환경 인천 유니폼"
     },
     {
-        "name": "HTML5 Canvas",
-        "image": "./image/html2.jpg",
-        "category": "html",
-        "cost": "10,000won",
-        "description": "웹의 한계를 Canvas로 뛰어넘는다"
+        "id": 10,
+        "name": "SSG Away",
+        "image": "./image/ssg_2.jpg",
+        "category": "SSG",
+        "cost": "95,000won",
+        "description": "친환경 원정 유니폼"
     },
     {
-        "name": "HTML5 Web Accessibility",
-        "image": "./image/html3.jpg",
-        "category": "html",
-        "cost": "12,000won",
-        "description": "HTML을 이용한 웹 접근성 가이드"
+        "id": 11,
+        "name": "SSG Home",
+        "image": "./image/ssg_3.jpg",
+        "category": "SSG",
+        "cost": "95,000won",
+        "description": "친환경 홈 유니폼"
     },
     {
-        "name": "HTML5가 보이는 그림책",
-        "image": "./image/html4.jpg",
-        "category": "html",
-        "cost": "8,000won",
-        "description": "그림으로 학습하는 HTML"
+        "id": 12,
+        "name": "LG Strip",
+        "image": "./image/lg_1.jpg",
+        "category": "LG",
+        "cost": "82,000won",
+        "description": "잔망루피 스트라이프 유니폼"
     },
     {
-        "name": "CSS Definitive guide",
-        "image": "./image/css1.jpg",
-        "category": "css",
-        "cost": "14,500won",
-        "description": "초보자를 위한 CSS 완벽 가이드"
+        "id": 13,
+        "name": "LG Solid",
+        "image": "./image/lg_2.jpg",
+        "category": "LG",
+        "cost": "82,000won",
+        "description": "잔망루피 솔리드 유니폼"
     },
     {
-        "name": "CSS3 - The Missing Manual",
-        "image": "./image/css2.jpg",
-        "category": "css",
-        "cost": "16,500won",
-        "description": "세상에 없던 가장 꼼꼼한 CSS 매뉴얼"
+        "id": 14,
+        "name": "LG 개나리",
+        "image": "./image/lg_3.jpg",
+        "category": "LG",
+        "cost": "75,000won",
+        "description": "개나리 에디션 유니폼"
     },
     {
-        "name": "CSS 시크릿",
-        "image": "./image/css3.jpg",
-        "category": "css",
-        "cost": "11,000won",
-        "description": "웹 디자인 문제를 해결하는 가장 나은 방법"
+        "id": 15,
+        "name": "Kiwoom Home",
+        "image": "./image/kiwoom_1.jpg",
+        "category": "키움",
+        "cost": "55,000won",
+        "description": "키움 홈 일반형 유니폼"
     },
     {
-        "name": "High Performance Javascript",
-        "image": "./image/js1.jpg",
-        "category": "js",
-        "cost": "13,000won",
-        "description": "자바스크립트 성능 향상을 위한 고찰"
+        "id": 16,
+        "name": "Kiwoom Home (Advanced)",
+        "image": "./image/kiwoom_2.jpg",
+        "category": "키움",
+        "cost": "89,000won",
+        "description": "키움 홈 고급형 유니폼"
+    },
+    {
+        "id": 17,
+        "name": "Kiwoom Away",
+        "image": "./image/kiwoom_3.jpg",
+        "category": "키움",
+        "cost": "55,000won",
+        "description": "키움 원정 일반형 유니폼"
+    },
+    {
+        "id": 18,
+        "name": "Kiwoom Away (Advanced)",
+        "image": "./image/kiwoom_4.jpg",
+        "category": "키움",
+        "cost": "89,000won",
+        "description": "키움 원정 고급형 유니폼"
+    },
+    {
+        "id": 19,
+        "name": "Kiwoom King",
+        "image": "./image/kiwoom_5.jpg",
+        "category": "키움",
+        "cost": "55,000won",
+        "description": "영웅 유니폼"
+    },
+    {
+        "id": 20,
+        "name": "Kiwoom Black",
+        "image": "./image/kiwoom_6.jpg",
+        "category": "키움",
+        "cost": "55,000won",
+        "description": "패션 유니폼 (블랙)"
+    },
+    {
+        "id": 21,
+        "name": "Kiwoom Pink",
+        "image": "./image/kiwoom_7.jpg",
+        "category": "키움",
+        "cost": "55,000won",
+        "description": "패션 유니폼 (핑크)"
+    },
+    {
+        "id": 22,
+        "name": "Kiwoom Jumper",
+        "image": "./image/kiwoom_8.jpg",
+        "category": "키움",
+        "cost": "105,000won",
+        "description": "키움 히어로즈 유광점퍼"
     }
 ]

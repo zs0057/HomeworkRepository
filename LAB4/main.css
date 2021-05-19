@@ -1,3 +1,27 @@
+body {
+    position: relative;
+    width: 1000px;
+    margin: auto;
+    font-family: 바탕;
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+input {
+    text-align: center;
+    margin: 15px;
+    font-size: 20px;
+}
+
+/* login.html */
 h1.sub {
     font-family: 궁서;
     font-size: 40px;
@@ -8,6 +32,22 @@ h1.sub {
     color: green;
 }
 
+h1 a {
+    color: red;
+}
+
+header.sub a {
+    background-color: grey;
+    padding: 10px;
+}
+
+.button {
+    background-color: grey;
+    width: 100px;
+    height: 40px;
+}
+
+/* index.html */
 header.main {
     background-color: lavender;
     position: relative;
@@ -20,40 +60,15 @@ div.link {
     top: 0px;
 }
 
-#signup {right: 50px;}
-#login {right: 200px;}
-
 h3.main {
     width: 200px;
     margin: 0px 750px 0px 50px;
     padding: 18.8px 0px;
     font-family: 'Arvo';
-    Animation-name: moving;
-    Animation-duration: 2s;
 }
 
-@keyframes moving {
-    0% {margin-left: 800px;}
-    100% {
-      margin-left: 0px;
-    }
-}
-
-body {
-    width: 1000px;
-    margin: auto;
-    font-family: 바탕;
-    text-align: center;
-    font-size: 20px;
-}
-
-header {
-    margin-bottom: 20px;
-}
-
-a {
-    text-decoration: none;
-}
+#signup {right: 50px;}
+#login {right: 200px;}
 
 .link a {
     display: block;
@@ -62,64 +77,49 @@ a {
     padding-top: 40px;
 }
 
-h1 a {
-    color: red;
+h4 {
+    margin-left: 300px;
 }
 
-header.sub a {
-    background-color: grey;
-    padding: 10px;
+h6 {
+    display: inline;
 }
 
-input {
+nav#filter {
+    display: inline-block;
+    float: left;
+    height: 100%;
+    margin-left: 50px;
+}
+
+input.filter {
     text-align: center;
     margin: 15px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
-.book_intro {
+#secret {
+    display: none;
+}
+
+#uniforms {
+    position: absolute;
+    left: 310px;
+    width: 690px;
+}
+
+.uniform {
     position: relative;
-    margin: 0px 64px 30px 0px;
+    margin: 0px 64px 32px 32px;
     border: 2px solid red;
     width: 244px;
-    height: 334px;
-    float: left;
-
+    height: 244px;
+    float: right;
 }
 
-.book_intro img {
+.uniform img {
     position: absolute;
-    width: 20%;
-    height: 20%;
-    left: 0;
-    transition: width 2s, height 2s;
-}
-
-.book_intro img:hover {
     width: 100%;
     height: 100%;
-}
-
-#html {
-    margin-left: 64px;
-}
-
-#js {
-    margin-right: 0px;
-}
-
-.intro {
-    clear: both;
-    column-count: 3;
-    column-gap: 40px;
-    column-width: 300px;
-    column-rule-color: green;
-    column-rule-style: dotted;
-    column-rule-width: 3px;
-}
-
-.button {
-    background-color: grey;
-    width: 100px;
-    height: 40px;
+    left: 0;
 }
