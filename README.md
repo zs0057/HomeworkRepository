@@ -1,4 +1,4 @@
-# This project is refactoring Kim's Homework
+# This project is refactoring Kim's Homework Lab4
 
 ## Point
 1. HTML Frame
