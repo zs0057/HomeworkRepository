@@ -234,13 +234,20 @@ section {
 	padding: 10px;
 }
 
-.footer__company {
-	margin-right: 300px;
-	margin-bottom: 10px;
-}
-.footer__company p{
+.footer__company p {
 	font-size: var(--font-micro);
 	color: var(--color-grey);
 	margin: 2px;
-	float: left;
+	text-align: start;
 }
+
+.info__cs, .info__tm p {
+	font-size: var(--font-micro);
+	margin: 0px;
+	text-align: end;
+}
+
+
+
+
+
