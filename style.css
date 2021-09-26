@@ -75,11 +75,19 @@ h3 {
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	background-color: var(--color-black);
+	background-color: transparent;
 	align-items: center;
 	color: var(--color-white);
 	padding: 6px;
 	z-index: 1;
+	transition: all var(--animation-duration) ease-in-out;
+	opacity: 0.9;
+	font-weight: var(--weight-bold);
+}
+#navbar.navbar--dark {
+	color: var(--color-white);
+	background-color: var(--color-black);
+	padding: 6px;
 }
 
 .navbar__logo {
@@ -136,6 +144,9 @@ h3 {
 	transform: translateY(10px);
 	transition: all 500ms ease-in;
 	color: var(--color-white);
+}
+.profile {
+	filter: brightness(75%);
 }
 
 .profile:hover .home__description {
