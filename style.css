@@ -55,6 +55,13 @@ ul {
 	padding-left: 0;
 }
 
+button {
+	background-color: transparent;
+	cursor: pointer;
+	border: none;
+	outline: none;
+
+}
 /* Typography */
 h1 {
 	font-size: var(--font-large);
@@ -116,6 +123,14 @@ h3 {
 	background-color: var(--color-dark-grey);
 }
 
+.navbar__toggle-btn {
+	position: absolute;
+	top: 24px;
+	right: 32px;
+	font-size: 24px;
+	color: var(--color-white);
+	display: none;
+}
 /* Home */
 #home {
 
@@ -258,7 +273,20 @@ section {
 	text-align: end;
 }
 
-
+/* For below 768px screen width */
+@media screen and (max-width: 1000px) {
+	:foot {
+		/* Font size */
+		--font-large: 30px;
+		--font-medium: 18px;
+		--font-small: 12px;
+	}
+	.navbar__toggle-btn {
+		display: block;
+		top: 24px;
+		font-size: var(--font-medium);
+	}
+}
 
 
 
