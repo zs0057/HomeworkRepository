@@ -243,9 +243,10 @@ section {
 	transition: all var(--animation-duration) ease-out;
 }
 
-.lotte__uniforms.anim-out {
+.lotte__uniforms.anim-out, .doosan__uniforms.anim-out, .kiwoom__uniforms.anim-out {
 	opacity: 0.6;
 	transform: scale(0.96) translateY(40px);
+
 }
 .uniform__img{
 	max-width: 260px;
@@ -253,7 +254,7 @@ section {
 	margin: 20px;
 }
 
-.uniform {
+.lotte__uniform, .doosan__uniform, .kiwoom__uniform {
 	position: relative;
 	display: flex;
 	justify-content: center;
@@ -264,7 +265,7 @@ section {
 	background: var(--color-light-white);
 }
 
-.uniform.invisible {
+.lotte__uniform.invisible, .doosan__uniform.invisible, .kiwoom__uniform.invisible {
 	display: none;
 }
 
@@ -284,7 +285,9 @@ section {
 	color: var(--color-white);
 }
 
-.uniform:hover .uniform__description {
+.lotte__uniform:hover .uniform__description,
+.doosan__uniform:hover .uniform__description,
+.kiwoom__uniform:hover .uniform__description {
 	opacity: 0.8;
 	transform: translateY(0px);
 }

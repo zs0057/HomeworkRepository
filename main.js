@@ -75,4 +75,89 @@ navbarToggleBtn.addEventListener('click', () => {
 	navbarMenu.classList.toggle('open');
 });
 
-// Category 
+// Lotte Category
+const btnlotteContainer = document.querySelector('.lotte__categories');
+const lotteUniformContainer = document.querySelector('.lotte__uniforms');
+const lotteUniforms = document.querySelectorAll('.lotte__uniform');
+
+btnlotteContainer.addEventListener('click', (e) => {
+	const filter = e.target.dataset.filter || e.target.parentNode.dataset.filter;
+	if(filter == null) {
+		return;
+	}
+	// Remove selection from the previous item and select the new one
+	const active = document.querySelector('.category__btn.selected');
+	active.classList.remove('selected');
+	const target = e.target.nodeName === 'BUTTON' ? e.target : e.target.parentNode;
+	target.classList.add('selected');
+	
+	lotteUniformContainer.classList.add('anim-out');
+	setTimeout (() => {
+		lotteUniforms.forEach((uniform) => {
+			if(filter === "*" || filter === uniform.dataset.type) {
+				uniform.classList.remove('invisible');
+			} else {
+				uniform.classList.add('invisible');
+			}
+		});
+		lotteUniformContainer.classList.remove('anim-out');
+	}, 300);
+});
+
+// Doosan Category
+const doosanBtnContainer = document.querySelector('.doosan__categories');
+const doosanUniformContainer = document.querySelector('.doosan__uniforms');
+const doosanUniforms = document.querySelectorAll('.doosan__uniform');
+
+doosanBtnContainer.addEventListener('click', (e) => {
+	const filter = e.target.dataset.filter || e.target.parentNode.dataset.filter;
+	if(filter == null) {
+		return;
+	}
+	// Remove selection from the previous item and select the new one
+	const active = document.querySelector('.category__btn.selected');
+	active.classList.remove('selected');
+	const target = e.target.nodeName === 'BUTTON' ? e.target : e.target.parentNode;
+	target.classList.add('selected');
+	
+	doosanUniformContainer.classList.add('anim-out');
+	setTimeout (() => {
+		doosanUniforms.forEach((uniform) => {
+			if(filter === "*" || filter === uniform.dataset.type) {
+				uniform.classList.remove('invisible');
+			} else {
+				uniform.classList.add('invisible');
+			}
+		});
+		doosanUniformContainer.classList.remove('anim-out');
+	}, 300);
+});
+
+// Kiwoom Category
+const kiwoomBtnContainer = document.querySelector('.kiwoom__categories');
+const kiwoomUniformContainer = document.querySelector('.kiwoom__uniforms');
+const kiwoomUniforms = document.querySelectorAll('.kiwoom__uniform');
+
+kiwoomBtnContainer.addEventListener('click', (e) => {
+	const filter = e.target.dataset.filter || e.target.parentNode.dataset.filter;
+	if(filter == null) {
+		return;
+	}
+	// Remove selection from the previous item and select the new one
+	const active = document.querySelector('.category__btn.selected');
+	active.classList.remove('selected');
+	const target = e.target.nodeName === 'BUTTON' ? e.target : e.target.parentNode;
+	target.classList.add('selected');
+	
+	kiwoomUniformContainer.classList.add('anim-out');
+	setTimeout (() => {
+		kiwoomUniforms.forEach((uniform) => {
+			if(filter === "*" || filter === uniform.dataset.type) {
+				uniform.classList.remove('invisible');
+			} else {
+				uniform.classList.add('invisible');
+			}
+		});
+		kiwoomUniformContainer.classList.remove('anim-out');
+	}, 300);
+});
