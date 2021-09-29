@@ -86,7 +86,7 @@ btnlotteContainer.addEventListener('click', (e) => {
 		return;
 	}
 	// Remove selection from the previous item and select the new one
-	const active = document.querySelector('.category__btn.selected');
+	const active = document.querySelector('.lotte__category__btn.selected');
 	active.classList.remove('selected');
 	const target = e.target.nodeName === 'BUTTON' ? e.target : e.target.parentNode;
 	target.classList.add('selected');
@@ -115,7 +115,7 @@ doosanBtnContainer.addEventListener('click', (e) => {
 		return;
 	}
 	// Remove selection from the previous item and select the new one
-	const active = document.querySelector('.category__btn.selected');
+	const active = document.querySelector('.doosan__category__btn.selected');
 	active.classList.remove('selected');
 	const target = e.target.nodeName === 'BUTTON' ? e.target : e.target.parentNode;
 	target.classList.add('selected');
@@ -144,7 +144,7 @@ kiwoomBtnContainer.addEventListener('click', (e) => {
 		return;
 	}
 	// Remove selection from the previous item and select the new one
-	const active = document.querySelector('.category__btn.selected');
+	const active = document.querySelector('.kiwoom__category__btn.selected');
 	active.classList.remove('selected');
 	const target = e.target.nodeName === 'BUTTON' ? e.target : e.target.parentNode;
 	target.classList.add('selected');

@@ -161,7 +161,7 @@ h3 {
 	color: var(--color-white);
 }
 .profile {
-	filter: brightness(75%);
+	filter: brightness(90%);
 }
 
 .profile:hover .home__description {
@@ -198,7 +198,9 @@ section {
 	margin: 40px;
 }
 
-.category__btn {
+.lotte__category__btn,
+.doosan__category__btn,
+.kiwoom__category__btn {
 	border: 1px solid var(--color-dark-white);
 	border-radius: var(--size-border-radius);
 	font-size: var(--font-regular);
@@ -206,14 +208,22 @@ section {
 	position: relative;
 }
 
-.category__btn.selected,
-.category__btn:hover {
+.lotte__category__btn.selected,
+.lotte__category__btn:hover,
+.doosan__category__btn.selected,
+.doosan__category__btn:hover,
+.kiwoom__category__btn.selected,
+.kiwoom__category__btn:hover {
 	background-color: var(--color-grey);
 	color: var(--color-white);
 }
 
-.category__btn.active .category__count,
-.category__btn:hover .category__count {
+.lotte__category__btn.active .category__count,
+.lotte__category__btn:hover .category__count,
+.doosan__category__btn.active .category__count,
+.doosan__category__btn:hover .category__count,
+.kiwoom__category__btn.active .category__count,
+.kiwoom__category__btn:hover .category__count {
 	opacity: 1;
 	top: 5px;
 }
