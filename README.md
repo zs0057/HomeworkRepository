@@ -1,4 +1,4 @@
-## This project is refactoring Kim's Homework Lab4
+## 김산 과제 이쁘게 만들어보기
 1. HTML Frame
 2. CSS(Design)
 3. New function in Js 
